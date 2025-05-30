@@ -8,15 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'hueneu-primary': '#A6A39F',       // Muted Grey/Taupe (Neu)
-        'hueneu-secondary': '#D0CFCF',   // Lighter Neutral
-        'hueneu-accent': '#FF6B6B',        // Soft Coral (Hue Pop)
-        'neutral-bg': '#F5F5F5',          // Light Background
-        'text-dark': '#333333',           // Dark Text
-        'text-light': '#666666',          // Secondary Text
-        'status-success': '#4CAF50',
-        'status-warning': '#FFC107',
-        'status-error': '#F44336',
+        'hueneu-primary': '#2C3E50',    // Midnight Blue (New Neu - sophisticated, stable)
+        'hueneu-secondary': '#95A5A6',  // Concrete (New Lighter Neutral - calm, supportive)
+        'hueneu-accent': '#1ABC9C',     // Turquoise (New Hue Pop - vibrant, modern, trustworthy)
+        'neutral-bg': '#FFFFFF',       // White (New Light Background - clean, spacious)
+        'text-dark': '#2C3E50',        // Dark Blue (harmonized with new primary)
+        'text-light': '#7F8C8D',       // Softer Grey (harmonized with new scheme)
+        'status-success': '#27AE60',   // Adjusted Green
+        'status-warning': '#F39C12',   // Adjusted Orange
+        'status-error': '#E74C3C',     // Adjusted Red
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'sans-serif'],

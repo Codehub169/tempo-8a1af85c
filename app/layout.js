@@ -45,7 +45,7 @@ export const metadata = {
     title: 'hueneu Studio | Where stories find their aesthetic.',
     description: 'Designs that whisper loud stories. Discover how hueneu crafts intentional brand experiences.',
     // images: ['/twitter-image.jpg'], // TODO: Add a specific Twitter image to /public e.g., /twitter-image.jpg
-    // creator: '@hueneu_', // TODO: Add studio's Twitter handle if available
+    // creator: '@hueneu_', // TODO: Add studio\'s Twitter handle if available
   },
   viewport: {
     width: 'device-width',
@@ -59,12 +59,12 @@ export const metadata = {
     apple: '/apple-touch-icon.png', // /public/apple-touch-icon.png
     // other: [
     //   { rel: 'icon', type: 'image/png', sizes: '32x32', url: '/favicon-32x32.png' },
-    //   { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#a6a39f' },
+    //   { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#2C3E50' }, // Updated color to new primary, ensure SVG matches or remove if not used
     // ],
   },
   // manifest: '/site.webmanifest', // /public/site.webmanifest for PWA features
-  themeColor: '#F5F5F5', // Matches --neutral-bg-hex
-  msapplicationTileColor: '#A6A39F', // Matches --hueneu-primary-hex
+  themeColor: '#FFFFFF', // Matches new --neutral-bg-hex
+  msapplicationTileColor: '#2C3E50', // Matches new --hueneu-primary-hex
 };
 
 export default function RootLayout({ children }) {

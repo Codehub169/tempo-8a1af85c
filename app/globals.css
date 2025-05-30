@@ -4,12 +4,12 @@
 
 :root {
   /* Hex versions of Tailwind palette for direct CSS use if needed */
-  --hueneu-primary-hex: #A6A39F;
-  --hueneu-secondary-hex: #D0CFCF;
-  --hueneu-accent-hex: #FF6B6B;
-  --neutral-bg-hex: #F5F5F5;
-  --text-dark-hex: #333333;
-  --text-light-hex: #666666;
+  --hueneu-primary-hex: #2C3E50;
+  --hueneu-secondary-hex: #95A5A6;
+  --hueneu-accent-hex: #1ABC9C;
+  --neutral-bg-hex: #FFFFFF;
+  --text-dark-hex: #2C3E50;
+  --text-light-hex: #7F8C8D;
 }
 
 html {
