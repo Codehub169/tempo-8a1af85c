@@ -1,0 +1,19 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .hueneu-text {
+    font-family: 'Poppins', sans-serif; /* Match with Tailwind config font-heading */
+    font-weight: 500; /* Medium weight */
+    font-size: 36px;
+    fill: currentColor; /* Allows styling via CSS color property */
+    letter-spacing: 0.02em;
+  }
+  .hueneu-dot {
+    fill: currentColor; /* Could be targeted for accent color if desired via CSS */
+  }
+</style>
+<text x="10" y="38" class="hueneu-text">
+  hueneu
+</text>
+<!-- Optional: A subtle dot that could be animated or colored with accent -->
+<circle cx="185" cy="36" r="3" class="hueneu-dot"/>
+</svg>

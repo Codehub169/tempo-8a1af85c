@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Hex versions of Tailwind palette for direct CSS use if needed */
+  --hueneu-primary-hex: #A6A39F;
+  --hueneu-secondary-hex: #D0CFCF;
+  --hueneu-accent-hex: #FF6B6B;
+  --neutral-bg-hex: #F5F5F5;
+  --text-dark-hex: #333333;
+  --text-light-hex: #666666;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-neutral-bg text-text-dark font-sans;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Custom scrollbar for a subtle, branded touch */
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-neutral-bg; 
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-hueneu-primary rounded-full;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  /* Tailwind apply doesn't work well with color-mix, so direct CSS */
+  background-color: color-mix(in srgb, var(--hueneu-primary-hex) 80%, transparent);
+}
+
+
+/* Global heading styles - applying the 'Poppins' font family via Tailwind's 'font-heading' */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading;
+}
+
+/* Base link styling */
+a {
+  @apply text-hueneu-accent hover:opacity-80 transition-opacity duration-150 ease-in-out;
+}
+
+/* Consistent focus-visible state for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--hueneu-accent-hex);
+  outline-offset: 2px;
+  @apply rounded-sm;
+}
+
+/* Base list styling */
+ul, ol {
+  @apply list-inside;
+}
