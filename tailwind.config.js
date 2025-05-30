@@ -19,8 +19,8 @@ module.exports = {
         'status-error': '#F44336',
       },
       fontFamily: {
-        primary: ['Inter', 'sans-serif'],
-        secondary: ['Poppins', 'sans-serif'],
+        sans: ['var(--font-inter)', 'sans-serif'],
+        heading: ['var(--font-poppins)', 'sans-serif'],
       },
       borderRadius: {
         soft: '4px',
@@ -41,21 +41,21 @@ module.exports = {
       },
       keyframes: {
         fadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
         slideInUp: {
-          '0%': { opacity: 0, transform: 'translateY(20px)' },
-          '100%': { opacity: 1, transform: 'translateY(0)' },
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         subtlePop: {
           '0%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.05)' },
           '100%': { transform: 'scale(1)' },
         },
-        logoReveal: { /* Placeholder for more complex logo animation - to be defined */
-          '0%': { opacity: 0, transform: 'scale(0.8) translateY(20px)' },
-          '100%': { opacity: 1, transform: 'scale(1) translateY(0px)' },
+        logoReveal: {
+          '0%': { opacity: '0', transform: 'scale(0.8) translateY(20px)' },
+          '100%': { opacity: '1', transform: 'scale(1) translateY(0px)' },
         }
       },
     },
